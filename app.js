@@ -19,6 +19,7 @@ const config = {
       then uncomment line 21 below: */
 
   db: vertex.nedb()
+  
 }
 
 vertex.configureApp(app, config)

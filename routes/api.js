@@ -23,7 +23,7 @@ const db = {
   player: players,
 };
 
-router.get('/team',(req,res)=>{
+router.get('/team1',(req,res)=>{
   Team.find(null)
   .then(data =>{
     res.json({
